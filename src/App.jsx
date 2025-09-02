@@ -7,7 +7,9 @@ import Student from "./Student";
 function App() {
   return (
     <>
-      <Student name=" Dendup" />
+      <Student name="Dendup" />
+      <Student age={20} />
+      <Student isStudent={true} />
     </>
   );
 }
