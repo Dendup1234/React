@@ -3,10 +3,11 @@ import Footer from "./Footer";
 import Food from "./Food";
 import Card from "./Card";
 import Tailwind from "./Tailwind";
+import Student from "./Student";
 function App() {
   return (
     <>
-      <Tailwind></Tailwind>
+      <Student name=" Dendup" />
     </>
   );
 }
